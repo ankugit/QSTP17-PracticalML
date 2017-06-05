@@ -79,38 +79,7 @@ for t in States:
 
 #Task4-"Bar plot of number of homicide vs year"
 
-<<<<<<< HEAD
-"""def no_of_homicides(year):
-=======
-def no_of_homicides(year):
->>>>>>> 2e39a7ecfd17e9b41a2ae9df14051607f159666f
-    count=0
-    temp=data[data["Year"]==year]
-    for t in temp["Incident"]:
-        count=count+int(t)
-    return(count)
 
-#To make a list of all the years
-Year=[]
-temp_3=Counter(data["Year"])
-for t in temp_3:
-    Year.append(t)
-Year.sort()    
-yr_vs_homicides=[]    
-for t in Year:
-    temp_4=no_of_homicides(t)
-    yr_vs_homicides.append([temp_4])
- 
-temp_6=[]
-for t in yr_vs_homicides:
-    temp_6=temp_6+t
-plt.bar(Year, temp_6,width=0.35,color='r')
-plt.xlabel('Year')
-#plt.ylabel('No. Of Homicides')
-plt.title('No. Of Homicides')
-
-<<<<<<< HEAD
-plt.show()"""
 
 #Task4-"Bar plot of number of homicide vs year"
 
@@ -148,6 +117,3 @@ sns.countplot(data=data,x = 'Year')
 plt.xticks(rotation =90)
 plt.show()
 
-=======
-plt.show()
->>>>>>> 2e39a7ecfd17e9b41a2ae9df14051607f159666f

@@ -79,7 +79,11 @@ for t in States:
 
 #Task4-"Bar plot of number of homicide vs year"
 
+<<<<<<< HEAD
 """def no_of_homicides(year):
+=======
+def no_of_homicides(year):
+>>>>>>> 2e39a7ecfd17e9b41a2ae9df14051607f159666f
     count=0
     temp=data[data["Year"]==year]
     for t in temp["Incident"]:
@@ -105,6 +109,7 @@ plt.xlabel('Year')
 #plt.ylabel('No. Of Homicides')
 plt.title('No. Of Homicides')
 
+<<<<<<< HEAD
 plt.show()"""
 
 #Task4-"Bar plot of number of homicide vs year"
@@ -143,3 +148,6 @@ sns.countplot(data=data,x = 'Year')
 plt.xticks(rotation =90)
 plt.show()
 
+=======
+plt.show()
+>>>>>>> 2e39a7ecfd17e9b41a2ae9df14051607f159666f
